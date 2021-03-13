@@ -34,11 +34,15 @@ def print_tower(pegs, nrings):
 
 def solve_tower(nrings, npegs):
     pegs = []
+
+    #
+    # Create empty lists for the pegs
+    #
     for peg in range(0, npegs):
         pegs.append([])
 
     #
-    # push the nrings on
+    # push the rings on
     #
     for i in range(0, nrings):
         pegs[0].append(i + 1)
@@ -80,12 +84,12 @@ def solve_tower(nrings, npegs):
                         # Don't move the ring value "1" as we move that in a)
                         #
                         if value != 1:
-                            for next_peg in range(0, npegs):
+                            for n in range(0, npegs):
                                 #
                                 # The next peg is the one to the right of this peg. If we reach the last peg then we
                                 # need to move to the first peg.
                                 #
-                                next_peg = (peg + next_peg) % npegs
+                                next_peg = (peg + n) % npegs
 
                                 #
                                 # Don't move to the same peg; that would be silly
