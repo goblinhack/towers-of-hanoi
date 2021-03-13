@@ -18,7 +18,7 @@
 import sys
 
 #
-# Print the solve_tower so we can check our progress
+# Print the tower so we can check our progress
 #
 def print_tower(pegs, nrings):
     npegs = len(pegs)

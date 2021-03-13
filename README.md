@@ -133,22 +133,6 @@ Finished pass
 Here is the full code:
 ```Python
 #!/usr/bin/env python
-#
-# The way to solve this is quite simple but does differ slightly for N = odd or even numbers of rings.
-# 
-# At each move you do either a) or b):
-# 
-# a) move the "1" value to the peg to the right, wrapping around to the first peg if needed
-# 
-# b) make the only other legal move
-# 
-# And then repeat either a) or b) for (2 ^ numrings) - 1.
-# 
-# So for N=3, you would do the above steps 7 times.
-# 
-# The catch that I alluded to earlier is that for N == odd (3,5,...), you will need to repeat this
-# entire algorithm one more time as the above will only move the rings one peg to the right. 
-#
 import sys
 
 #
