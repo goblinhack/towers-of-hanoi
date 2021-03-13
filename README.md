@@ -11,9 +11,9 @@ The way to solve this is quite simple but does differ slightly for N = odd or ev
 
 At each move you do either a) or b):
 
-a) move the "1" value to the peg to the right, wrapping around to the first peg if needed
+    a) move the "1" value to the peg to the right, wrapping around to the first peg if needed
 
-b) make the only other legal move
+    b) make the only other legal move
 
 And then repeat either a) or b) for (2 ^ numrings) - 1.
 
