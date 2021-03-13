@@ -9,9 +9,11 @@ a) move the "1" value to the peg to the right, wrapping around to the first peg 
 
 b) make the only other legal move
 
-And then repeat for 2^numrings - 1. So for N=3, you would do the above steps 7 times.
+And then repeat either a) or b) for (2 ^ numrings) - 1.
 
-The catch that I alleded to earlier is that for N == odd (3,5,...), you will need to repeat this
+So for N=3, you would do the above steps 7 times.
+
+The catch that I alluded to earlier is that for N == odd (3,5,...), you will need to repeat this
 entire algorithm one more time as the above will only move the rings one peg to the right. 
 
 So in pseudo code, we have:
