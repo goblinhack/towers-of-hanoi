@@ -153,7 +153,7 @@ void solve_tower(int nrings, int npegs) {
             //
             move_peg_one_right = ! move_peg_one_right;
         }
-        printf("Finished pass\n");
+        printf("Finished pass\n\n");
     }
 }
 

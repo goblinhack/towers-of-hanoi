@@ -154,7 +154,7 @@ func solve_tower(nrings int, npegs int) {
             //
             move_peg_one_right = ! move_peg_one_right
         }
-        fmt.Printf("Finished pass\n")
+        fmt.Printf("Finished pass\n\n")
     }
 }
 
