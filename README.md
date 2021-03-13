@@ -5,6 +5,8 @@ Non recursive solution to the towers of hanoi
 
 [Solution in golang](hanoi.go)
 
+[Solution in c++11](hanoi.cpp)
+
 The way to solve this is quite simple but does differ slightly for N = odd or even numbers of rings.
 
 At each move you do either a) or b):

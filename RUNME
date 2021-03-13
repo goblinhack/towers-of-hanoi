@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo Python
+echo ======
+python hanoi.py
+
+echo Golang
+echo ======
+go run hanoi.go
+
+echo C++
+echo ======
+make; ./hanoi
+
