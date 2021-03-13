@@ -2,6 +2,7 @@ Non recursive solution to the towers of hanoi
 =============================================
 
 [Solution in python3](hanoi.py)
+
 [Solution in golang](hanoi.go)
 
 The way to solve this is quite simple but does differ slightly for N = odd or even numbers of rings.
